@@ -76,8 +76,8 @@
 	    const StartTime = hour + ':'+ minutes
 	    const hour2 = hour + 1
 	    const EndTime = hour2 + ':'+ minutes
-	    //request("https://www.opencurb.nyc/search.php?address=&coord="+la+","+lo+"&v_type=COMMERCIAL&duration=60&a_type=PARK&meter=2&radius=300&stand_type=LOADING+%26+UNLOADING&stop_type=LOADING+%26+UNLOADING&StartDate=" + StartDate + "&StartTime=" + StartTime + "&EndDate=" + EndDate + "&EndTime=" + EndTime + "&action_allowed=2&zoomLevel=17&auth_geo_loc=0&device_type=desktop");
-		request("https://www.opencurb.nyc/search.php?coord=40.7344544,-73.8722772&v_type=PASSENGER&a_type=PARK&meter=2&radius=300&StartDate=2022-10-30&StartTime=06:25&EndDate=2022-10-30&EndTime=07:25&action_allowed=1");	
+	    request("https://www.opencurb.nyc/search.php?address=&coord="+la+","+lo+"&v_type=COMMERCIAL&duration=60&a_type=PARK&meter=2&radius=300&stand_type=LOADING+%26+UNLOADING&stop_type=LOADING+%26+UNLOADING&StartDate=" + StartDate + "&StartTime=" + StartTime + "&EndDate=" + EndDate + "&EndTime=" + EndTime + "&action_allowed=2&zoomLevel=17&auth_geo_loc=0&device_type=desktop");
+	    //request("https://www.opencurb.nyc/search.php?coord=40.7344544,-73.8722772&v_type=PASSENGER&a_type=PARK&meter=2&radius=300&StartDate=2022-10-30&StartTime=06:25&EndDate=2022-10-30&EndTime=07:25&action_allowed=1");	
 
 	    $.ajax({
 	      url: 'https://camarasdefotodeteccion.com/getsector',
